@@ -3,9 +3,8 @@ import Layout from "../components/Layout";
 
 function AboutPage() {
   return (
-    <Layout>
-      <title>About Page</title>
-      <h1>About Page</h1>
+    <Layout pageTitle="About Me">
+      <p>Hi there! I'm the proud creator of this site, which I built with Gatsby.</p>
     </Layout>
   );
 }
